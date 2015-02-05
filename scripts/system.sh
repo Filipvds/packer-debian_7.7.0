@@ -1,5 +1,5 @@
-# Install Vim editor
-apt-get install -y vim
+# Install Vim and Nano editor
+apt-get install -y vim nano
 
 # Customize Bash settings.
 cat <<EOF > /home/vagrant/.bashrc
@@ -44,8 +44,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # Set your favorite editor here.
-VISUAL=vim; export VISUAL
-EDITOR=vim; export EDITOR
+VISUAL=nano; export VISUAL
+EDITOR=nano; export EDITOR
 
 # Append /usr/local/bin to the path.
 export PATH=/usr/local/bin:/usr/local/share/python/:\$PATH

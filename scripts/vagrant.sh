@@ -1,5 +1,4 @@
 # Set up Vagrant.
-
 date > /etc/vagrant_box_build_time
 
 # Create the user vagrant with password vagrant
